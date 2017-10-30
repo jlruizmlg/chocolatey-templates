@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wazuh-agent</id>
+    <title>Wazuh Agent</title>
+    <version>2.1.1</version>
+    <authors>© Wazuh</authors>
+    <owners>jlruizmlg</owners>
+    <summary>wazug-agent</summary>
+    <description>OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response. </description>
+    <projectUrl>https://wazuh.com</projectUrl>
+    <tags>ossec hids wazuh</tags>
+    <copyright>© Trend Micro</copyright>
+    <licenseUrl>http://www.ossec.net/?page_id=4</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/wazuh/wazuh/2.1/src/win32/favicon.ico</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
